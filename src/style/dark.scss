@@ -1,0 +1,109 @@
+.app.dark{
+    background: #111;
+    color: rgb(156, 156, 156);
+
+    .chartGrid {
+        stroke: rgba(228, 228, 228, 0.219)
+    }
+
+    .table{
+        background: #111;
+
+        .tableCell{
+            color: gray;
+        }
+    }
+
+    
+    .navbar{
+        color: #999;
+        border-color: #333;
+        
+        .search{
+            border-color: gray;
+            
+            input{
+                color: #999;
+            }
+        }
+    }
+    
+    .home{
+        
+        .widget{
+            background: rgb(37, 37, 37);
+            box-shadow: 2px 4px 10px 1px rgba(250, 250, 250, 0.47) !important;
+            -webkit-box-shadow: 2px 4px 10px 1px rgba(250, 250, 250, 0.47);
+            -moz-box-shadow: 2px 4px 10px 1px rgba(250, 250, 250, 0.47);
+        }
+        
+        .featured{
+            background: rgb(37, 37, 37);
+            box-shadow: 2px 4px 10px 1px rgba(250, 250, 250, 0.47) !important;
+            -webkit-box-shadow: 2px 4px 10px 1px rgba(250, 250, 250, 0.47);
+            -moz-box-shadow: 2px 4px 10px 1px rgba(250, 250, 250, 0.47);
+        }
+        
+        .chart{
+            background: rgb(37, 37, 37);
+        }
+    }
+
+
+    .sidebar{
+        background: #111;
+        border-color: #333;
+
+        .top{
+           
+           .logo{
+            color: #999;
+           }   
+        }
+
+        hr{
+            border-color: #333;
+        }
+
+        ul{
+            li{
+               
+                &:hover{
+                    background-color: #333;
+               } 
+            } 
+
+            .icon{
+                color: #999;
+            }
+        }
+        
+        .colorOption{
+            border: gray 1px solid;
+        }
+    }
+
+    .datatable{
+
+        .datagrid{
+            color: gray;
+            border: none;
+
+            .viewButton, .deleteButton{
+                color: gray;
+                border: none;
+            }
+        }
+    }
+
+    .new{
+
+        .bottom{
+
+            input{
+                color: gray;
+                background: transparent;
+            }
+        }
+    }
+}
